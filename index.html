@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="timer">01:00</div>
+        <div class="buttons-block">
+            <button class="start-btn">Start game!</buuton>
+            <button class="check-result-btn" disabled>Check result</button>
+            <button class="new-btn">New game</button>
+        </div>
+        <div class="puzzle-container">
+            <div class="puzzle-block left-block">
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+                <div class="puzzle"></div>
+            </div>
+            <div class="puzzle-block right-block"></div>
+        </div>
+        <div class="modal-background">
+            <div class="modal">
+                <div class="line"></div>
+                <h3>It's a pity, but you lost.</h3>
+                <div class="line"></div>
+                <div class="modal-buttons">
+                    <button class="close-btn">Close</button>
+                    <button class="check-btn">Check</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
